@@ -11,11 +11,14 @@ import TheWelcome from "./components/TheWelcome.vue";
     ar-modes="scene-viewer webxr"
     class="can__viewer"
     skybox-image="aircraft_workshop_01_1k.hdr"
+    ios-src="VIC_Croptop_WebCanTest-2.usdz"
+    xr-environment
   ></model-viewer>
 </template>
 
 <style>
 body {
+  overflow: hidden;
   margin: 0;
   padding: 0;
 }
