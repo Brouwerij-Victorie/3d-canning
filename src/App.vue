@@ -13,6 +13,8 @@ import TheWelcome from "./components/TheWelcome.vue";
     skybox-image="aircraft_workshop_01_1k.hdr"
     ios-src="VIC_Croptop_WebCanTest-2.usdz"
     xr-environment
+    width="100px"
+    height="100px"
   ></model-viewer>
 </template>
 
@@ -23,7 +25,8 @@ body {
   padding: 0;
 }
 .can__viewer {
-  width: 100vw;
-  height: 100vh;
+  position: relative;
+  width: 50vw;
+  height: 50vw;
 }
 </style>
