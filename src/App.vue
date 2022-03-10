@@ -5,11 +5,11 @@ import TheWelcome from "./components/TheWelcome.vue";
 
 <template>
   <model-viewer
+    class="can__viewer"
     src="VIC_Croptop_WebCanTest-2.gltf"
     camera-controls
     ar
-    ar-modes="scene-viewer webxr"
-    class="can__viewer"
+    ar-scale="fixed"
     skybox-image="aircraft_workshop_01_1k.hdr"
     ios-src="VIC_Croptop_WebCanTest-2.usdz"
     xr-environment
